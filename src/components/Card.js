@@ -2,10 +2,10 @@ import React from "react";
 import styles from "../styles/Card.module.css";
 
 function Card({ data }) {
-  const { imgUrl, title, source, readtime, excerpt } = data;
+  const { imgUrl, title, source, readtime, excerpt, main } = data;
 
   return (
-    <article className={styles.container}>
+    <article className={main ? styles.mainContainer : styles.container}>
       <div className={styles.cardWrapper}>
         <div className={styles.media}>
           <a>
@@ -19,7 +19,9 @@ function Card({ data }) {
           <h3 className={styles.title}>{title}</h3>
           <cite className={styles.details}>
             <a>{source}</a>
-            <span className={styles.readTime}>{readtime} min</span>
+            <span className={styles.readTime}>
+              {readtime ? `| ${readtime} min` : ""}
+            </span>
           </cite>
           {excerpt ? (
             <div className={styles.excerpt}>

@@ -1,6 +1,16 @@
 main {
     /* padding 값 변화 */
     padding: 40px;
-    height: calc(100vh - 64px);
-    background-color: lightgrey
+    padding-top: 64px;
+}
+
+/* 모바일 분기 */
+@media screen and (max-width: 720px) {
+    h1 {
+        font-size: 1.4rem;
+    }
+    h2 {
+        font-size: 1rem;
+        font-weight: 500;
+    }
 }

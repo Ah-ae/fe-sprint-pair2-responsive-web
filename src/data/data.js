@@ -6,6 +6,7 @@ const resource = [
     readtime: 9,
     excerpt:
       "From quiet quitting to the Great Resignation, why we won’t stop making up words about work.",
+    main: true,
   },
   {
     imgUrl: "./images/img02.png",
@@ -14,6 +15,7 @@ const resource = [
     source: "The New York Times",
     readtime: 5,
     excerpt: null,
+    main: false,
   },
   {
     imgUrl: "./images/img03.png",
@@ -21,6 +23,7 @@ const resource = [
     source: "Pocket",
     readtime: null,
     excerpt: null,
+    main: false,
   },
   {
     imgUrl: "./images/img04.png",
@@ -28,6 +31,7 @@ const resource = [
     source: "Slate",
     readtime: 9,
     excerpt: null,
+    main: false,
   },
   {
     imgUrl: "./images/img05.png",
@@ -35,6 +39,7 @@ const resource = [
     source: "Esquire",
     readtime: 9,
     excerpt: null,
+    main: false,
   },
 ];
 

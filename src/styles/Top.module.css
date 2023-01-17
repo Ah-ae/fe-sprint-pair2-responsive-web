@@ -1,7 +1,21 @@
 section {
-    background-color: plum;
-    display: flex;
-    flex-direction: row;
-    /* flex-wrap: wrap; */
+    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 1.5rem;
+}
+
+/* 태블릿 분기 */
+@media screen and (max-width: 1024px) {
+    section {
+        grid-template-rows: repeat(4, 1fr);
+    }
+}
+
+/* 모바일 분기 */
+@media screen and (max-width: 720px) {
+    section {
+        grid-template-rows: repeat(6, auto);
+    }
 }
