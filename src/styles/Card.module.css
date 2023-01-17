@@ -1,0 +1,30 @@
+.container {
+    background-color: #fff;
+}
+
+.cardWrapper {
+    /* background-color: mediumaquamarine; */
+}
+
+.media {
+    /* 카드 이미지  */
+}
+
+.media img {
+    width: 100%;
+}
+
+.viewOriginal {
+    opacity: 0;
+}
+.viewOriginalText{
+
+}
+
+.content {
+
+}
+
+.footer {
+    /* background-color: pink; */
+}
