@@ -1,0 +1,81 @@
+/* dddddddd */
+@media all and (max-width: 1600px){
+
+
+.container {
+  box-sizing: border-box;
+  width: 60%;
+
+ padding-left: 5%;
+}
+
+.bottoWrapper {
+display: flex;
+justify-content: center;
+
+  /* background-color: mediumaquamarine; */
+}
+
+.media {
+padding: 0px;
+display: flex;
+
+
+}
+
+.media img {
+  width: 30%;
+  margin: 10px;
+}
+
+
+.content {
+  
+
+}
+.cite{
+  color: grey;
+}
+}
+
+
+@media all and (max-width: 600px){
+  .container {
+    box-sizing: border-box;
+    display: flex;
+      width: 100%;
+  }
+  
+  .bottoWrapper {
+  display: flex;
+  justify-content: center;
+  
+    /* background-color: mediumaquamarine; */
+  }
+  
+  .media {
+  padding: 0px;
+  display: flex;
+  
+  
+  
+  
+  
+  }
+  
+  .media img {
+
+  }
+  
+  
+  .content {
+    
+  
+  }
+  
+  
+  .cite{
+    color: grey;
+  }
+  }
+
