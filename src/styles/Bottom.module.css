@@ -1,24 +1,21 @@
-/* saaaaaaa */
-@media all and (max-width: 1600px){
+
 article {
-
-    display: flex;
-    flex-direction: column;
-    /* flex-wrap: wrap; */
-    gap: 1.5rem;
-    padding-top: 18px;
-}
-}
-
-@media all and (max-width: 600px){
-    article {
-
+    background-color: lightgrey;
         display: flex;
         flex-direction: column;
         /* flex-wrap: wrap; */
-        
+        gap: 1.5rem;
         padding-top: 18px;
     }
-
-
-}
+    
+    
+    @media all and (max-width: 720px){
+        article {
+            display: flex;
+            flex-direction: column;
+            /* flex-wrap: wrap; */
+            background-color: lightgrey;
+            gap: 1.5rem;
+            padding-top: 18px;
+        }
+    }

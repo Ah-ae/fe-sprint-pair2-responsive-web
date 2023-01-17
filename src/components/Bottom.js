@@ -1,13 +1,13 @@
 import React from "react";
 import styles from "../styles/Bottom.module.css";
 import Botto from "./Botto";
-import dummy from "../data/item.js";
+import dumy from "../data/item.js";
 
 function Bottom  () {
-  console.log(dummy);
+  console.log(dumy);
   return (
     <article>
-      {dummy.map((item, idx) => {
+      {dumy.map((item, idx) => {
         // console.log(data);
         return <Botto key={idx} data={item} />;
       })}
